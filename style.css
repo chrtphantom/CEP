@@ -1,0 +1,222 @@
+a:hover
+{
+	color:green;
+}
+
+a:active
+{
+	color: red;
+}
+body
+{
+	background-color: #0A122A;
+}
+
+/*sa tete*/
+
+#header 
+{
+	-moz-transition: background-color 0.2s ease;
+	-webkit-transition: background-color 0.2s ease;
+	-ms-transition: background-color 0.2s ease;
+	transition: background-color 0.2s ease;
+	background: #0A122A;
+	height: 8em;
+	left: 0;
+	line-height: 5em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+
+	#header h1 {
+		left: 1em;
+		position: absolute;
+	}
+
+	#header h3 {
+		right: 6em;
+		font-size: 1em;
+		position: absolute;
+	}
+
+	#header h2 {
+		right: 1em;
+		position: absolute;
+	}
+
+/*corps de page*/
+#p1 
+{
+	background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	cursor: default;
+	height: 100vh;
+	min-height: 35em;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+	#p1 h2 {
+		font-size: 3em;
+		opacity: 1;
+		padding: 0.35em 1em;
+		position: relative;
+		transform: scale(1);
+		display: inline-block;
+		color: black;
+	}
+
+	#p1 h2:before, #p1 h2:after{
+		background: rgb(0,0,255);
+		opacity:0.6;
+		content: '';
+		display: block;
+		height: 2px;
+		width: 100%;
+	}
+
+	#p1 p
+	{
+		font-size: 2em;
+		color: #00FFFF;
+	}
+
+	#p1 a
+	{
+		font-size: 4em;
+		color: black;
+	}
+
+#video
+{
+	display: inline-block; 
+}
+
+#Second,#block1,.block1,.block2,.Partner,.Paris_Store,.TF1,.Casino
+{
+	padding: 5px 4px 4px 3px ;
+}
+
+	.block1
+	{
+		background-color: #0B0B3B;
+		color: #FFF;
+		text-align:center;
+	}
+
+	#Second
+	{
+		background-color: #0B2161;
+		color: #c7ebe8;
+		margin:auto;
+		align-items: center
+	}
+
+	#Second h2, #Second p
+	{
+		text-align:center;
+	}
+	
+	.block2
+	{
+		background-color: #0B2161;
+		color: #c7ebe8;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+#Rencontre
+{
+	text-align:center;
+	color: #FFF;
+}
+
+#video
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #0B2161;
+	color: #FFF;
+}
+
+.vid
+{
+	background-color: #0B2161;
+	text-align: center;
+	color: #FFF;
+}
+
+.Partner
+{
+	padding: 15px 2px 20px 3px ;	
+	background-color: #FFF;
+	color: #070719;
+}	
+
+.Partner h2, .Partner p
+{
+	text-align:center;
+	color: #070719;
+}
+
+#Paris_Store,#TF1,#Casino
+{
+	padding: 8px 2px 8px 3px ;	
+	background-color: #FFF;
+	color: #070719;
+	display: flex;	
+}
+
+/*pied de page */
+#footer 
+{
+	padding: 2em 0 2em 0 ;
+	background-color: #0A122A;
+	text-align: center;
+}
+
+	#footer .icons
+	{
+		font-size: 1.5em;
+		color: rgba(255, 255, 255, 0.5);
+		letter-spacing: 0.225em;
+		list-style: none;
+		padding: 0;
+		text-transform: uppercase;
+		display: inline-block;
+		line-height: 1em;
+		margin-left: 1em;
+		padding-left: 1em;
+	}
+	#footer .copyright
+	{
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 0.8em;
+		letter-spacing: 0.225em;
+		list-style: none;
+		padding: 0;
+		text-transform: uppercase;
+		display: inline-block;
+		line-height: 1em;
+		margin-left: 1em;
+		padding-left: 1em;
+	}
